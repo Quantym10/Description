@@ -1,0 +1,162 @@
+body {
+    background-color: #dbdbdb;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+
+    background-color: #fff;
+}
+
+
+
+/* Header */
+.header {
+    padding: 20px;
+}
+
+.header-title {
+    font-size: 34px;
+    text-align: center;
+    font-style: italic;
+    color: #9c9c9c;
+
+    margin: 0;
+}
+
+
+
+/* List */
+.list-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.list-text {
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.list-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    list-style-type: disc;
+}
+
+
+
+/* Table */
+.table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.table th,
+.table td,
+.table-abb td {
+    border: 1px solid #000;
+    padding: 10px 15px;
+}
+
+td a {
+    display: block;
+    background: #9c9c9c;
+    color: #fff;
+    padding: 5px; 
+}
+
+.table-abb {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.nav {
+    font-size: 24px;
+}
+
+
+
+/* Footer */
+.footer {
+    color: #121212;
+    text-align: center;
+
+    margin-top: 5px;
+    padding: 15px 25px;
+}
+.email {
+    color: #121212;
+}
+
+
+/* Form */
+.form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form-input {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #121212;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    width: 335px;
+
+    outline: none;
+    border: 1px solid #d0d0d0;
+    background-color: #fff;
+}
+
+
+.form-select{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #121212;
+
+    width: 357px;
+    resize: none;
+    
+    margin-bottom: 20px;
+    padding: 10px;
+
+    outline: none;
+    border: 1px solid #d0d0d0;
+}
+
+/* Button */
+
+.btn-submit,
+.btn-reset {
+    font-size: 15px;
+
+    margin-top: 5px;
+    padding: 15px;
+    color: #fff;
+
+    border: none;
+}
+
+.btn-submit {
+    background-color: #c4c4c4;
+}
+
+.btn-submit:hover {
+    background-color: #8b8b8b;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #008d86;
+}
+
+.btn-reset:hover {
+    background-color: #00635e;
+    cursor: pointer;
+}

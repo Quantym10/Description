@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Вариант 17</title>
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <div class="header">
+                <h1 class="header-title">Форма</h1>
+            </div>
+            <center><table class="nav">
+                <tr>
+                    <td><a href="index.html">Главная</a></td>
+                    <td><a href="map.html">Карта</a></td>
+                    <td><a href="form.html">Форма</a></td>
+                </tr>
+            </table></center>
+            
+            <div class="form">
+                
+                <form action="/" method="post">
+                        <label for="male">Муж</label>
+                        <input type="radio" name="choose_male" id="male">
+
+                        <label for="female">Жен</label>
+                        <input type="radio" name="choose_male" id="female">
+
+                        <div>
+                            <input class="form-input" type="text" name="name" placeholder="Ваше имя">
+                        </div>
+                        <div>
+                            <input class="form-input" type="email" name="email" placeholder="Ваш e-mail">
+                        </div>
+                        <div>
+                            <input class="form-input" type="tel" name="tel" placeholder="Ваш номер телефона">
+                        </div>
+                        <div>
+                            <input class="form-input" type="text" name="address" placeholder="Место проживания">
+                        </div>
+                        <div>
+                            <input class="form-input" type="password" name="password" placeholder="Пароль">
+                        </div>
+
+                        <select class="form-select" name="secret-question">
+                            <option value="" disabled selected>Из какого вы города?</option>
+                            <option> Москва</option>
+                            <option>Санкт-Петербург</option>
+                            <option>Новосибирск</option>
+                            <option>Екатеринбург</option>
+                        </select>
+
+                        <h2 class="form-title">Оповещения</h2>
+
+                        <div>
+                            <input type="checkbox" id="news">
+                            <label for="news">Получать новости на e-mail</label>
+                        </div>
+                        <div class="">
+                            <input type="checkbox" id="sales">
+                            <label for="sales">Получать информацию о постройке новых городов</label>
+                        </div>
+
+                        <button class="btn-submit" type="submit">Сохранить</button>
+                        <button class="btn-reset" type="reset">Отменить</button>
+                </form>
+            </div>
+
+            
+            <div class="footer">
+                <p>Осипенко Борислав Сергеевич <a class="email" href="mailto:zzzz2004zzz@gmail.com">e-mail: zzzz2004zzz@gmail.com</a></p>
+            </div>
+        </div>
+
+    </body>
+</html>
